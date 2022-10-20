@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+    box-sizing: border-box;
+}
+a{
+    color: #0969da;
+}
+.logo{
+    margin: 50px 10px 10px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+img{
+    margin-bottom: 15px;
+    width: 2.5%;
+    height: 2.5%
+}
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Login{
+    margin: 30px 10px 10px 20px;
+    padding: 20px 10px 10px 10px;
+    background-color: #f6f8fa;
+    border: 1px solid #d8dee4;
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    justify-content: center;
+    border-radius: 6px;
+}
+.Login div{
+    padding-bottom: 10px;
+}
+.title{
+    font-size: 14px;
+    float: left;
+}
+.Password a{
+    font-size: 12px;
+    float: right;
+}
+input{
+    height: 25px;
+    border:1px solid#d0d7de;
+    border-radius: 6px;
+    width: 100%;
+}
+.submit{
+    border: none;
+    background:#2da44e;
+    text-align: center;
+    width: 100%;
+    border-radius: 6px;
+    padding: 5px;
+    color: white;
+    font-weight: bold;
+}
+
+.registration{
+    padding: 10px;
+    margin: 10px 10px 10px 20px;
+    border: 1px solid #d8dee4;
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    width: 20%;
+    border-radius: 6px;
+}
+.registration a{
+    padding-left: 10px;
+}
+.navbar{
+    margin: 50px 10px 10px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navbar ul{
+    display: flex;
+    justify-content: space-between;
+}
+.navbar ul li{
+    font-size: 14px;
+    margin-left: 15px;
+}
+.color{
+    color: #57606a;
+}
