@@ -9,6 +9,7 @@
 a{
     color: #0969da;
 }
+
 .logo{
     margin: 50px 10px 10px 20px;
     display: flex;
@@ -18,7 +19,7 @@ a{
 }
 img{
     margin-bottom: 15px;
-    width: 2.5%;
+    width: 5%;
     height: 2.5%
 }
 section{
@@ -32,6 +33,7 @@ section{
     background-color: #f6f8fa;
     border: 1px solid #d8dee4;
     display: flex;
+    flex-wrap: nowrap;
     flex-direction: column;
     width: 20%;
     justify-content: center;
@@ -74,24 +76,27 @@ input{
     justify-content: center;
     width: 20%;
     border-radius: 6px;
-}
-.registration a{
-    padding-left: 10px;
+    gap: 10%;
 }
 .navbar{
-    margin: 50px 10px 10px 20px;
+    position: fixed;
+    bottom: 30px;
+    left: 50%;
+    transform: translate(-50%,-50%);
     display: flex;
     justify-content: center;
     align-items: center;
 }
 .navbar ul{
     display: flex;
-    justify-content: space-between;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
 }
 .navbar ul li{
-    font-size: 14px;
-    margin-left: 15px;
+    font-size: .8rem;
 }
 .color{
     color: #57606a;
 }
+
